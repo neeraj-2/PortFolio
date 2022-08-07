@@ -93,28 +93,41 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+<Develope width={40} height={40} /> Languages
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+
 </Description>
 <Description>
-<strong>I like to Design</strong>
+<strong>Efficient In</strong>
 <ul>
     <li>
-        Web Design
+        C/C++
     </li>
     <li>
-        Mobile Apps
+        C#
+    </li>
+    <li>
+        Python
+    </li>
+    <li>
+        Javascript
     </li>
 </ul>
 </Description>
 <Description>
-<strong>Tools</strong>
+<strong>Familiar with </strong>
 <ul>
     <li>
-       Figma
+       Golang
     </li>
+    <li>
+        PHP
+    </li>
+    <li>
+        SQL
+    </li>
+
     
 </ul>
 </Description>
@@ -122,22 +135,50 @@ I love to create design which speaks, Keep it clean, minimal and simple.
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Develope width={40} height={40} /> Tools & Technologies
 </Title>
 <Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
-</Description>
-<Description>
-<strong>Skills</strong>
-<p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
-</p>
+<strong>Web & Android </strong>
+<ul>
+    <li>
+      NodeJs
+    </li>
+    <li>
+        ReactJs
+    </li>
+    <li>
+        React Native
+    </li>
+    <li>
+        Flutter
+    </li>
+    <li>
+        VueJs
+    </li>
+
+
+    
+</ul>
 </Description>
 <Description>
 <strong>Tools</strong>
-<p>
-VScode, Github, Codepen etc.
-</p>
+<ul>
+    <li>
+       Git
+    </li>
+    <li>
+        Docker
+    </li>
+    <li>
+        K8s
+    </li>
+    <li>
+        Azure DevOps
+    </li>
+    
+
+    
+</ul>
 </Description>
 
             </Main>

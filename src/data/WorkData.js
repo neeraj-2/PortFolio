@@ -3,59 +3,69 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"CCCalatog Frontend",
+        description:"CC Search is the official web application for the Creative Commons Catalog API . It is an interface to search for content that is licensed under Creative Commons licenses or marked with public domain tools.",
+        tags:["Creative Commons","Open-Source-Project","VueJs","NodeJs","HTML5"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://wordpress.org/openverse/",
+        github:"https://github.com/cc-archive/cccatalog-frontend"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Vocabulary",
+        description:"A cohesive design system & Vue component library to unify the web-facing Creative Commons.",
+        tags:["Creative Commons","Open-Source-Project","SCSS","Javascript","Vue","Shell"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://cc-vocabulary.netlify.app/",
+        github:"https://github.com/creativecommons/vocabulary"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Chooser",
+        description:"The new and improved CC license selection tool.",
+        tags:["Creative Commons","Open-Source-Project","Javascript","Vue"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://chooser-beta.creativecommons.org/",
+        github:"https://github.com/creativecommons/chooser"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Conference Management Portal, IITJ",
+        description:"Login-Access Based Web Application to allow IITJ students to upload their own conference papers, videos , presentations and allow the authorized Faculty members to view the same.",
+        tags:["C Sharp","Bootstrap", "SQL", "ASP.net"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"",
+        github:"https://github.com/neeraj-2/ConferenceManagementPortal"
        
-    },{
+    },
+    
+    {
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
-        
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        name:"NEMA",
+        description:"A collaborative video streaming application using which a user can do live-streams via P2P connection among streamers and viewers.",
+        tags:["Android","React Native", "Firebase", "SocketIO","WEBRTC"],
+        demo:"",
+        github:"https://github.com/neeraj-2/nema"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"RTI-Revolution",
+        description:"A login-access based portal to keep the track of all uploaded RTI documents by registered users.",
+        tags:["Web","PHP", "SQL", "Google Vision API","Dialogflow"],
+        demo:"https://rti-revolution.herokuapp.com/",
+        github:"https://github.com/neeraj-2/rti-integration-vision-and-dialogflow"
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+    },
+
+    {
+        id:7,
+        name:"IITJ-Inventory",
+        description:"An online platform that manages inventory for all the clubs of IITJ, allowing clubs to keep track of items and the budget all at one place.",
+        tags:["Web","ReactJs", "Golang", "Postgres SQL","Figma"],
+        demo:"",
+        github:"https://github.com/neeraj-2/IITJ-INVENTORY"
         
     },
     

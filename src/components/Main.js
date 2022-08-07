@@ -36,7 +36,7 @@ right: calc(1rem + 2vw);
 text-decoration: none;
 z-index:1;
 `
-const BLOG = styled(NavLink)`
+const Experience = styled(NavLink)`
 color: ${props => props.theme.text};
 position: absolute;
 top: 50%;
@@ -145,7 +145,7 @@ const Main = () => {
                 <span>click here</span>
             </Center>
 
-            <Contact target="_blank" to={{pathname:"mailto:codebucks27@gmail.com"}}>
+            <Contact target="_blank" to={{pathname:"mailto:neeraj.2@iitj.ac.in"}}>
                 <motion.h2
                 initial={{
                     y:-200,
@@ -162,7 +162,7 @@ const Main = () => {
                     Say hi..
                 </motion.h2>
             </Contact>
-            <BLOG to="/blog">
+            <Experience to="/Experience">
                 <motion.h2
                 initial={{
                     y:-200,
@@ -175,9 +175,9 @@ const Main = () => {
                 whileHover={{scale: 1.1}}
                 whileTap={{scale: 0.9}}
                 >
-                    Blog
+                    Experience
                 </motion.h2>
-            </BLOG>
+            </Experience>
             <WORK to="/work" click={+click}>
                 <motion.h2
                 initial={{

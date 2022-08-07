@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import {motion} from 'framer-motion'
 import Me from '../assets/Images/profile-img.png'
+import Avatar from '../assets/Images/git-avatar.png'
+import Avatar2 from '../assets/Images/github.png' 
 
 
 const Box = styled(motion.div)`
@@ -79,9 +81,9 @@ const Intro = () => {
         >
             <SubBox>
                 <Text>
-                    <h1>Hi,</h1>
-                    <h3>I'm CodeBucks.</h3>
-                    <h6>I design and Code simple yet beautiful websites.</h6>
+                    <h1>Hey there,</h1>
+                    <h3>I'm Neeraj Anand.</h3>
+                    <h6>I write code, listen music, play table-tennis and chess, want to have some chat, just connect with me through twitter, linkedin, insta or facebook maybe. Thanks! </h6>
                 </Text>
             </SubBox>
             <SubBox>

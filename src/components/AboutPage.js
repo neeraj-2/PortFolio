@@ -9,6 +9,7 @@ import PowerButton from '../subComponents/PowerButton';
 import ParticleComponent from '../subComponents/ParticleComponent';
 import BigTitle from '../subComponents/BigTitlte'
 import astronaut from '../assets/Images/spaceman.png'
+import avatar from '../assets/Images/git-avatar.png'
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -25,9 +26,9 @@ const float = keyframes`
 `
 const Spaceman = styled.div`
 position: absolute;
-top: 10%;
-right: 5%;
-width: 20vw;
+top: 30%;
+right: 65%;
+width: 25vw;
 animation: ${float} 4s ease infinite;
 img{
     width: 100%;
@@ -38,7 +39,7 @@ const Main =  styled.div`
   border: 2px solid ${(props) => props.theme.text};
   color: ${(props) => props.theme.text};
   padding: 2rem;
-  width: 50vw;
+  width: 45vw;
   height: 60vh;
   z-index: 3;
   line-height: 1.5;
@@ -49,7 +50,7 @@ const Main =  styled.div`
  backdrop-filter: blur(4px);
   
   position: absolute;
-  left: calc(5rem + 5vw);
+  left: calc(42rem + 5vw);
   top: 10rem;
   font-family: 'Ubuntu Mono', monospace;
   font-style: italic;
@@ -69,17 +70,17 @@ const AboutPage = () => {
 <ParticleComponent theme='dark' />
 
         <Spaceman>
-            <img src={astronaut} alt="spaceman" />
+            <img src={avatar} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
+        I am a B.tech Final Year Student at Indian Institute of Technology, Jodhpur. I have a keen interest in exploring new emerging technologies.
 <br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
+I started my programming journey by contributing to various open source projects. The majority of my work is in ReactJs, VueJs, ExpressJs, C#, Asp.net, PHP, SQL, React Native, and Flutter. Apart from Js and C#, I am very much familiar with other programming languages such as C, C++, Python, Golang etc.
 <br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+I have 3 years of experience in the Web domain and 1 year of experience in the Android domain.
         </Main>
 
-        <BigTitle text="ABOUT" top="10%" left="5%" />
+        <BigTitle text="" top="10%" left="5%" />
 
 
         </Box>

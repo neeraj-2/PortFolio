@@ -32,11 +32,7 @@ VScode, Github, Codepen etc.
 About Text
 
 ----------------------------------------------
-I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+I am a B.tech Final Year Student at Indian Institute of Technology, Jodhpur. I have a keen interest in exploring new emerging technologies. I started my programming journey by contributing to various open source projects. he majority of my work is in ReactJs, VueJs, ExpressJs, C#, Asp.net, PHP, SQL, React Native, and Flutter. Apart from Js and C#, I am very much familiar with other programming languages such as C, C++, Python, Golang etc. I have 3 years of experience in the Web domain and 1 year of experience in the Android domain. Besides contributing to various open source organizations such as Creative Commons, Devlup Labs, etc., I did a six month internship at Willings, Tokyo Japan, and a two month internship at Microsoft.
 ----------------------------------------------
 
 

@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { Facebook, Github, Twitter, YouTube } from '../components/AllSvgs'
+import { Facebook, Github, Twitter, YouTube,Linkedin,Instagram } from '../components/AllSvgs'
 import {DarkTheme} from '../components/Themes'
 
 
@@ -37,7 +37,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/neeraj-2"}}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -46,7 +46,7 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.2}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/code_bucks"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://twitter.com/Neeraj__Anand"}}>
                     <Twitter width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
@@ -55,17 +55,27 @@ const SocialIcons = (props) => {
             animate={{scale:[0,1,1.5,1]}}
             transition={{type:'spring', duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://facebook.com/codebucks27"}}>
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.facebook.com/profile.php?id=100038987867826"}}>
                     <Facebook width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1.4}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.linkedin.com/in/neeraj-anand-b7822b190/"}}>
+                    <Linkedin width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div
             initial={{transform:"scale(0)"}}
             animate={{scale:[0,1,1.5,1]}}
-            transition={{type:'spring', duration:1, delay:1.6}}
+            transition={{type:'spring', duration:1, delay:1.4}}
             >
-                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://youtube.com"}}>
-                    <YouTube width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://www.instagram.com/unever9.nw/"}}>
+                    <Instagram width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
 
