@@ -113,9 +113,11 @@ const Card = (props) => {
                 }
             </Tags>
             <Footer>
-                <Link to={{pathname: `${demo}`}} target="_blank">
+                {/* if demo */}
+                {demo &&  <Link to={{pathname: `${demo}`}} target="_blank">
                     Visit
-                </Link>
+                </Link> }
+               
                 <Git to={{pathname: `${github}`}} target="_blank">
                     <Github width={30} height={30} />
                 </Git>

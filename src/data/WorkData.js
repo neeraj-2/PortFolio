@@ -35,7 +35,7 @@ export const Work = [
         description:"Login-Access Based Web Application to allow IITJ students to upload their own conference papers, videos , presentations and allow the authorized Faculty members to view the same.",
         tags:["C Sharp","Bootstrap", "SQL", "ASP.net"],
         
-        demo:"",
+        demo: "https://github.com/neeraj-2/ConferenceManagementPortal",
         github:"https://github.com/neeraj-2/ConferenceManagementPortal"
        
     },
@@ -45,7 +45,7 @@ export const Work = [
         name:"NEMA",
         description:"A collaborative video streaming application using which a user can do live-streams via P2P connection among streamers and viewers.",
         tags:["Android","React Native", "Firebase", "SocketIO","WEBRTC"],
-        demo:"",
+        demo: "https://github.com/neeraj-2/nema",
         github:"https://github.com/neeraj-2/nema"
         
     },
@@ -64,7 +64,7 @@ export const Work = [
         name:"IITJ-Inventory",
         description:"An online platform that manages inventory for all the clubs of IITJ, allowing clubs to keep track of items and the budget all at one place.",
         tags:["Web","ReactJs", "Golang", "Postgres SQL","Figma"],
-        demo:"",
+        demo: "https://github.com/neeraj-2/IITJ-INVENTORY",
         github:"https://github.com/neeraj-2/IITJ-INVENTORY"
         
     },
